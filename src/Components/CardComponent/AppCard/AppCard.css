@@ -1,0 +1,92 @@
+.app-card-container {
+  width: 204px;
+  height: 168px;
+  background: linear-gradient(91deg, #181A53 0%, #3B3E9F 100%);
+  border: 1px solid #E2E2E2;
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #ffffff;
+  font-family: 'Manrope', sans-serif;
+}
+
+.app-card-title {
+  width: 96px;
+height: 39px;
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal medium var(--unnamed-font-size-14)/var(--unnamed-line-spacing-20) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font: normal normal medium 14px/20px Manrope;
+letter-spacing: 0px;
+color: #F5F5F5;
+opacity: 1;
+}
+
+.app-card-textImage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-card-container-brief {
+  width: 120px;
+height: 39px;
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-14)/var(--unnamed-line-spacing-20) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font: normal normal bold 14px/20px Manrope;
+letter-spacing: 0px;
+color: #F5F5F5;
+opacity: 1;
+}
+
+.app-card-image {
+  width: 40px;
+  height: auto;
+}
+
+.app-card-download-btn {
+  align-self: flex-start;
+  background-color: #2563eb; /* brighter blue */
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(37, 99, 235, 0.4);
+}
+
+.app-card-download-btn:hover {
+  background-color: #1d4ed8; /* darker blue on hover */
+  box-shadow: 0 6px 10px rgba(29, 78, 216, 0.6);
+}
+
+
+.app-card-container {
+  width: 204px;
+  height: 168px;
+  background: linear-gradient(91deg, #181A53 0%, #3B3E9F 100%);
+  border: 1px solid #E2E2E2;
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #ffffff;
+  font-family: 'Manrope', sans-serif;
+  
+  /* Added transition for smooth zoom */
+  transition: transform 0.3s ease;
+  cursor: pointer; /* Optional: pointer on hover to indicate interactivity */
+}
+
+.app-card-container:hover {
+  transform: scale(1.05); /* Zoom in 5% */
+}

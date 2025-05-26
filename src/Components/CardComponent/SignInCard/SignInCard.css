@@ -1,0 +1,63 @@
+.sign-in-card-main {
+  width: 204px;
+  height: 177px;
+  background: #0876F8;
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-family: 'Manrope', sans-serif;
+  gap: 12px; /* spacing between elements */
+
+  /* Zoom effect */
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.sign-in-card-main:hover {
+  transform: scale(1.05); /* zoom in 5% */
+}
+
+.signin-card-textImage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signin-card-textImage img {
+  width: 40px;
+  height: auto;
+}
+
+.sign-in-card-text {
+  font-size: 14px;
+  font-weight: 600;
+  max-width: 130px; /* prevent overflow */
+}
+
+.sign-in-btton {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 90px;
+  height: 30px;
+  background: #ffffff;
+  color: #0876F8;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-family: 'Manrope', sans-serif;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  padding: 0 10px;
+}
+
+.sign-in-btton:hover {
+  background: #e6f0ff;
+}
+
+.arrow {
+  font-size: 16px;
+  line-height: 1;
+}

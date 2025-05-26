@@ -1,0 +1,93 @@
+.consultant-card {
+  width: 204px;
+  height: 200px;
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.consultant-card:hover {
+  transform: translateY(-5px);
+}
+
+.consultant-image {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* margin-bottom: 12px; */
+  z-index: 1;
+}
+.consultant-name {
+  /* width: 130px; */
+  /* height: 19px; */
+  /* UI Properties */
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    var(--unnamed-font-size-14) / var(--unnamed-line-spacing-24)
+    var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(---181a53);
+  text-align: center;
+  font: normal normal 600 12px/20px Manrope;
+  letter-spacing: 0px;
+  color: #181a53;
+  opacity: 1;
+}
+.consultant-icons {
+  margin-top: 10px;
+}
+.consultant-icons img:hover {
+  transform: scale(1.15); /* was 1.1 */
+}
+.consultant-info {
+  /* margin-bottom: 30px; */
+  margin-top: -20px;
+  height: 135px;
+  /* UI Properties */
+  background: var(---f0f5ff) 0% 0% no-repeat padding-box;
+  border: 1px solid var(---e2e2e2);
+  background: #f0f5ff 0% 0% no-repeat padding-box;
+  border: 1px solid #e2e2e2;
+  border-radius: 12px;
+  opacity: 1;
+}
+.consultant-info-text {
+  margin-top: 30px;
+}
+.consultant-name {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #181a53;
+  margin: 0;
+}
+
+.consultant-title {
+  /* margin-bottom: 50px; */
+  /* margin-top: 40px; */
+  font-size: 14px;
+  color: #666;
+  margin: 4px 0 10px;
+}
+
+.consultant-icons {
+  display: flex;
+  gap: 15px;
+  margin-left: 15px;
+}
+.consultant-desc {
+  font-size: 13px;
+  color: #444;
+  margin-bottom: 14px;
+  line-height: 1.4;
+}
+
+.arrow {
+  font-size: 16px;
+}

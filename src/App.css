@@ -1,0 +1,35 @@
+/* Add overlay when sidebar is open */
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1500;
+}
+
+/* Apply blur effect when sidebar is open */
+.dashboard.blurred {
+  filter: blur(4px);
+  pointer-events: none; /* Prevent clicks on blurred content */
+  transition: filter 0.3s ease;
+}
+
+.sidebar {
+  z-index: 2000; /* Ensure sidebar is above the rest */
+}
+.loader {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0876F8;
+}
+
+
+
+
+
+
+  

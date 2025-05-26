@@ -1,0 +1,146 @@
+{
+    "CoursesOnRoleses":[
+        {
+            "CourseId":1,
+            "CourseName":"UX Designer"
+
+        },
+        {
+            "CourseId":2,
+            "CourseName":"Product Manager"
+
+        },
+        {
+            "CourseId":3,
+            "CourseName":"Web developer"
+
+        },
+        {
+            "CourseId":4,
+            "CourseName":"Devops"
+
+        },
+        {
+            "CourseId":5,
+            "CourseName":"Marketing"
+
+        },
+        {
+            "CourseId":6,
+            "CourseName":"Tester"
+
+        },
+        {
+            "CourseId":7,
+            "CourseName":"Machine Learning"
+
+        },
+        {
+            "CourseId":8,
+            "CourseName":"Artificial Intelligence"
+
+        },
+        {
+            "CourseId":9,
+            "CourseName":"Cloud Computing"
+
+        },
+        {
+            "CourseId":10,
+            "CourseName":"Buissiness Anallyist"
+
+        }
+        
+    ],
+    "UxDesignerCourse":[
+        {
+            "id":1,
+            
+            "identity":"GTR",
+            "title":"DP-600T00: Microsoft Fabric Analytics Engineer",
+            "level":"Beginner",
+            "time":"4.00 days (32 Hrs)",
+            "price":"1,695",
+            "discount":"$2,695",
+            "content":"$1000 off. Offer valid until 02/28/2024"
+
+        },
+        {
+            "id":2,
+            
+            "identity":"GTR",
+            "title":"DP-900T00: Microsoft Azure Data Fundamentals",
+            "level":"Intermediate",
+            "time":"4.00 days (32 Hrs)",
+            "price":"1,695",
+            "discount":"$2,695",
+            "content":"$1000 off. Offer valid until 02/28/2024"
+
+        },
+        {
+            "id":3,
+            
+            "identity":"GTR",
+            "title":"Google Cloud Big Data and Machine Learning",
+            "level":"Advance",
+            "time":"4.00 days (32 Hrs)",
+            "price":"1,695",
+            "discount":"$2,695",
+            "content":"$1000 off. Offer valid until 02/28/2024"
+
+        }
+    ],
+     "TopvendorsCourse":[
+        {
+            "CourseId":1,
+            "CourseName":"Microsoft"
+
+        },
+        {
+            "CourseId":2,
+            "CourseName":"AI certs"
+
+        },
+        {
+            "CourseId":3,
+            "CourseName":"Google"
+
+        },
+        {
+            "CourseId":4,
+            "CourseName":"Acano"
+
+        },
+        {
+            "CourseId":5,
+            "CourseName":"SCRUMstudy"
+
+        },
+        {
+            "CourseId":6,
+            "CourseName":"senior analyst"
+
+        },
+        {
+            "CourseId":7,
+            "CourseName":"Machine Learning"
+
+        },
+        {
+            "CourseId":8,
+            "CourseName":"Google"
+
+        },
+        {
+            "CourseId":9,
+            "CourseName":"Cloud Computing"
+
+        },
+        {
+            "CourseId":10,
+            "CourseName":"Buissiness Anallyist"
+
+        }
+        
+    ]
+}

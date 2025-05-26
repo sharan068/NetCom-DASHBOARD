@@ -1,0 +1,130 @@
+.UXDesignerCourseMain{
+  /* width: 970px; */
+  margin-top: 70px;
+  /* padding: 2rem; */
+  
+  background-color: #f9f9f9;
+}
+.UXDesignerCourseMainHeading{
+font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-16)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(---181a53);
+text-align: left;
+font: normal normal bold 16px/24px Manrope;
+letter-spacing: 0px;
+color: #181A53;
+opacity: 1;
+}
+
+.card-icons{
+  display: flex;
+  gap: 10px;
+}
+
+
+.UXDesignerCourseCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.UXDesignerCourseCards .card {
+  flex: 0 0 calc(33.333% - 1rem); /* 3 cards per row */
+  box-sizing: border-box;
+}
+
+
+.ux-course-identity {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+.card-title{
+ width: 230px;
+height: 43px;
+/* Font properties */
+font-family: 'Manrope', sans-serif;
+font-weight: 600;
+font-size: 16px;       /* slightly larger for readability */
+line-height: 24px;     /* good vertical spacing */
+letter-spacing: 0.5px; /* subtle spacing for clarity */
+color: #181A53;        /* dark blue color */
+text-align: left;
+opacity: 1;
+
+}
+.ux-course-info {
+  margin-top: 1rem;
+}
+
+.ux-course-detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  
+}
+.card-level{
+color: #4D4D4D;
+opacity: 1;
+}
+
+.card-duration{
+  color: #4D4D4D;
+opacity: 1;
+}
+.card-price{
+  
+  font-family: 'Manrope', sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.5px; /* slight spacing for clarity */
+color: #181A53;
+text-align: left;
+opacity: 1;
+}
+
+.ux-course-detail del {
+  color: #999999;
+  font-weight: normal;
+  margin-left: 8px;
+}
+.ux-course-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+.ux-course-offer {
+  margin-top: 1rem;
+  color: #5DC930;
+  font-weight: bold;
+}
+/* Existing styles here ... */
+
+.zoom-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.zoom-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(24, 26, 83, 0.3);
+  z-index: 10; /* make sure hovered card stays on top */
+}
+
+@media (max-width: 992px) {
+  .UXDesignerCourseCards .card {
+    flex: 0 0 calc(50% - 1rem); /* 2 cards per row on tablets */
+  }
+}
+
+@media (max-width: 576px) {
+  .UXDesignerCourseCards .card {
+    flex: 0 0 100%; /* 1 card per row on small screens */
+  }
+}
