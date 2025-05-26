@@ -1,3 +1,12 @@
+## 🚀 Getting Started
+
+1. Clone the repository:  
+   `https://github.com/sharan068/NetCom-DASHBOARD.git`  
+2. Install dependencies::
+   `npm install`  
+3. Run the development server:  
+   `npm run dev`
+
 ## 📦 Dependencies
 
 This project uses the following libraries:
